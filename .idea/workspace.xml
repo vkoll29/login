@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3f0a4ee-641d-4804-a2a4-125b071f9c4e" name="Default" comment="All the validation and token classes and methods work correctly. Also it doesn't work with phpstorm probably because it sets its own tokens.">
+    <list default="true" id="f3f0a4ee-641d-4804-a2a4-125b071f9c4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Input.php" afterPath="$PROJECT_DIR$/classes/Input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Session.php" afterPath="$PROJECT_DIR$/classes/Session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Token.php" afterPath="$PROJECT_DIR$/classes/Token.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Validate.php" afterPath="$PROJECT_DIR$/classes/Validate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/classes/Validate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -357,8 +352,16 @@
       <workItem from="1489097750768" duration="91000" />
       <workItem from="1489121559329" duration="6752000" />
       <workItem from="1489237909060" duration="5066000" />
-      <workItem from="1489316722372" duration="13003000" />
+      <workItem from="1489316722372" duration="13065000" />
     </task>
+    <task id="LOCAL-00001" summary="All the validation and token classes and methods work correctly. &#10;Also it doesn't work with phpstorm probably because it sets its own tokens.">
+      <created>1489347298847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489347298847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -376,11 +379,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42609000" />
+    <option name="totallyTimeSpent" value="42671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1292" height="767" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -411,7 +414,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All the validation and token classes and methods work correctly. Also it doesn't work with phpstorm probably because it sets its own tokens." />
-    <option name="LAST_COMMIT_MESSAGE" value="All the validation and token classes and methods work correctly. Also it doesn't work with phpstorm probably because it sets its own tokens." />
+    <MESSAGE value="All the validation and token classes and methods work correctly. &#10;Also it doesn't work with phpstorm probably because it sets its own tokens." />
+    <option name="LAST_COMMIT_MESSAGE" value="All the validation and token classes and methods work correctly. &#10;Also it doesn't work with phpstorm probably because it sets its own tokens." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -839,7 +843,7 @@
     <entry file="file://$PROJECT_DIR$/classes/Validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
