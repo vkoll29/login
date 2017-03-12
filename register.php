@@ -4,9 +4,7 @@ require_once 'core/init.php';
 //var_dump(Token::check(Input::get('token')));
 
 if(Input::exists()) {
-//    if (Token::check(Input::get('token'))) {
-
-        echo 'I have been run';
+    if (Token::check(Input::get('token'))) {
 
         $validate = new Validate();
         $validation = $validate->check($_POST, array(
@@ -39,6 +37,7 @@ if(Input::exists()) {
             }
         }
 
+    }
 }
 
  ?>
@@ -61,7 +60,7 @@ if(Input::exists()) {
     <input type="text" name="name" id="name" value="<?php echo escape(Input::get('name')); ?>">
   </div>
 
-<!--  <input type="hidden" name="token" value="--><?php //echo Token::generate(); ?><!--">-->
+  <input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
   <input type="submit" value="Register">
 
 </form>
