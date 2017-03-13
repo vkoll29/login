@@ -1,7 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vkoll29
- * Date: 03/08/17
- * Time: 4:41 PM
- */
+
+class Hash{
+    public static function make($string, $salt = ''){
+        return hash('sha256', $string.$salt);
+    }
+
+    public static function salt($length){
+        return mcrypt_create_iv($length);
+    }
+
+    public static function unique(){
+        return self::make(uniqid());
+    }
+}

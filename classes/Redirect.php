@@ -1,7 +1,19 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vkoll29
- * Date: 03/08/17
- * Time: 4:41 PM
- */
+
+class Redirect{
+    public static function to($location){
+        if($location){
+            if(is_numeric($location)){
+                switch ($location){
+                    case 404:
+                        header('HTTP/1.0 404 Not Found');
+                        include 'includes/errors/404.php';
+                        exit();
+                    break;
+                }
+            }
+            header('Location: ' .$location);
+            exit();
+        }
+    }
+}
