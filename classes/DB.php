@@ -112,7 +112,7 @@ class DB{
       // die($set);
 
       $sql = "UPDATE {$table} SET {$set} WHERE ID=$id";
-        //TOD change WHERE clause to take value from any column and not just ID
+        //TODO change WHERE clause to take value from any column and not just ID
       if(!$this->query($sql, $fields)->error()){
         return true;
       }

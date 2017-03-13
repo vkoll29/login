@@ -1,4 +1,6 @@
 <?php
 require_once 'core/init.php';
 
-$user = DB::getInstance()->delete('users', 3);
+if(Session::exists('success')){
+    echo Session::flash('success');
+}
