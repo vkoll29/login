@@ -78,7 +78,7 @@ class DB{
         $keys = array_keys($fields);
         $values = null;
         $x = 1;
-//TODO change the sql stmnt to take any table and not just users since $tables isn't used
+
         foreach ($fields as $field) {
           $values .= '?';
           if($x < count($fields)){
@@ -88,7 +88,7 @@ class DB{
         }
         // die($values);
 
-        $sql = "INSERT INTO users (`" . implode('`,`', $keys). "`) VALUES ({$values})";
+        $sql = "INSERT INTO {$table} (`" . implode('`,`', $keys). "`) VALUES ({$values})";
 
         if(!$this->query($sql, $fields)->error()){
           return true;
