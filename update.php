@@ -42,7 +42,8 @@ if(Input::exists()){
     <div class="field">
         <label for="name">Name</label>
         <input type="text" name="name" value="<?php echo escape($user->data()->name); ?>">
+    </div>
         <input type="submit" value="Update">
         <input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
-    </div>
+
 </form>
