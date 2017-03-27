@@ -15,6 +15,11 @@ if($user->isLoggedIn()){
         <li><a href="logout.php">Log out</a></li>
     </ul>
 <?php
+    if($user->hasPermission('admin')){
+        echo "<p>You are an admin</p>";
+    }elseif ($user->hasPermission('moderator')){
+        echo "<p>You are a moderator</p>";
+    }
 } else{
     echo "You need to <a href='login.php'>log in</a> or <a href='register.php'>register</a> to continue";
 }
